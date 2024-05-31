@@ -3,9 +3,9 @@ config-version: 2
 ####### Gamerules #########################################################################################
 #### These settings will be applied when you run the '/dl setup' command!
 gamerules:
-  spectators-generate-chunks: false
-  announce-advancements: false
-  do-weather-cycle: false
+  spectators-generate-chunks: true
+  announce-advancements: true
+  do-weather-cycle: true
   do-insomnia: false
   players-sleeping-percentage: 100
   random-tick-speed: 6
@@ -45,7 +45,7 @@ items:
 #### You may change this here if you'd like.
 enchantments:
   enchantment-table-craftable: false
-  enchantment-table-breakable: false
+  enchantment-table-breakable: true
   bookshelves-craftable: false
 
   ## Enabling this setting will make all dropped Enchantment Tables unbreakable when dropped as an item.
@@ -96,7 +96,7 @@ misc:
   ## If your soulmate dies while you're offline,
   ## you will be killed by the plugin upon rejoining
   ## when this setting is enabled.
-  kill-soulmate-on-join-if-offline-during-death: false
+  kill-soulmate-on-join-if-offline-during-death: true
 
   ## Will only be applied when running the '/dl setup' command!
   border-size: 700.0
